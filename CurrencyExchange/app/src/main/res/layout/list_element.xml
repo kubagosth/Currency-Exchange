@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+
+    <ImageView
+        android:id="@+id/imageViewFlag"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eur" />
+
+    <TextView
+        android:id="@+id/textViewCurrency"
+        android:layout_width="61dp"
+        android:layout_height="match_parent"
+        android:text="EUR"
+        android:textAlignment="center"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/textViewAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:text="1500"
+        android:textAlignment="center"
+        android:textSize="23dp" />
+</LinearLayout>
